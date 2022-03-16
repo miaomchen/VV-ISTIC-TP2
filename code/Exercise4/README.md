@@ -2,6 +2,7 @@
 
 Put here all the code created for this exercise
 
+```
 package fr.istic.vv;
 
 import com.github.javaparser.ast.CompilationUnit;
@@ -92,11 +93,13 @@ public class NoGetterPrinter extends VoidVisitorWithDefaults<Void> {
        // System.out.println("  " + declaration.getDeclarationAsString(true, true));
     }
 
-/*    @Override
+    /*   
+    @Override
     public void visit(PackageDeclaration declaration, Void arg) {
          declaration.getName().accept(this, arg);
         System.out.println(declaration.getNameAsString());
-    }*/
+    }
+    */
 
     @Override
     public void visit(PackageDeclaration n, Void arg) {
@@ -104,3 +107,5 @@ public class NoGetterPrinter extends VoidVisitorWithDefaults<Void> {
         System.out.println(n.getNameAsString());
     }
 }
+
+```
