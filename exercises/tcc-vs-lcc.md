@@ -26,7 +26,7 @@ TCC = NDC/NP    ;     LCC = (NDC + NIC)/ NP
 Si TCC = LCC => NDC = NDC + NIC => NIC = 0
 
 En d'autres termes, *TCC et LCC produisent la même valeur pour une classe Java donnée s'il n'y a pas de méthodes indirectement connectées dans la dite classe*.
-Cela pourrait être possible si par exemple les méthodes de la classe partagent toutes les mêmes variables d'instance ( comme dans l'exemple ci-dessous)
+Cela pourrait être possible si par exemple les méthodes de la classe partagent toutes les mêmes variables d'instance ( `comme dans l'exemple ci-dessous`)
 
 ```java
 class Rectangle {
